@@ -59,7 +59,7 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
 </head>
 <body>
 <h1>📊 Token Dashboard</h1>
-<p class="sub">Generated 2026-07-04 05:00 UTC · OpenRouter + Anthropic Console · <a href="#" onclick="location.reload()" style="color:var(--blue)">Refresh</a></p>
+<p class="sub">Generated 2026-07-05 05:00 UTC · OpenRouter + Anthropic Console · <a href="#" onclick="location.reload()" style="color:var(--blue)">Refresh</a></p>
 
 <div class="tabs">
     <button class="tab active" onclick="switchTab('overview')">Overview</button>
@@ -70,10 +70,10 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
 <!-- ── OVERVIEW TAB ── -->
 <div id="tab-overview" class="tab-content active">
 <div class="grid4">
-    <div class="card"><h3>Combined (7d)</h3><div class="big" style="color:#f59e0b">$1,529</div><div class="detail">$218/day avg</div></div>
-    <div class="card"><h3><span class="provider-badge or">OR</span>OpenRouter</h3><div class="big" style="color:#3b82f6">$1,142</div><div class="detail">163/day · 2d balance</div></div>
-    <div class="card"><h3><span class="provider-badge ant">AN</span>Anthropic</h3><div class="big" style="color:#f97316">$387</div><div class="detail">55/day · 75.6% cache hit</div></div>
-    <div class="card"><h3>OR Balance</h3><div class="big">$318</div><div class="detail">~2 days at current rate</div></div>
+    <div class="card"><h3>Combined (7d)</h3><div class="big" style="color:#22c55e">$1,023</div><div class="detail">$146/day avg</div></div>
+    <div class="card"><h3><span class="provider-badge or">OR</span>OpenRouter</h3><div class="big" style="color:#3b82f6">$1,023</div><div class="detail">146/day · 2d balance</div></div>
+    <div class="card"><h3><span class="provider-badge ant">AN</span>Anthropic</h3><div class="big" style="color:#f97316">$0</div><div class="detail">0/day · 0.0% cache hit</div></div>
+    <div class="card"><h3>OR Balance</h3><div class="big">$254</div><div class="detail">~2 days at current rate</div></div>
 </div>
 
 <div class="card full-width"><h3>Daily Spend — Combined (7d)</h3><canvas id="combinedChart" height="200"></canvas></div>
@@ -81,11 +81,11 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
 
 <!-- ── OPENROUTER TAB ── -->
 <div id="tab-openrouter" class="tab-content">
-<div class="card alert-card"><h3>⚠️ OpenRouter Off-Policy Spend</h3><div class="alert-item"><strong>anthropic/claude-opus-4.8</strong> — $476.98 — Escalation</div><div class="alert-item"><strong>anthropic/claude-sonnet-4</strong> — $54.61 — Off-Policy</div><div class="alert-item"><strong>anthropic/claude-haiku-4.5</strong> — $45.91 — Off-Policy</div><div class="alert-item"><strong>anthropic/claude-sonnet-4.6</strong> — $34.77 — Off-Policy</div><div class="alert-item"><strong>z-ai/glm-5.2</strong> — $24.07 — Off-Policy</div><div class="alert-item"><strong>openai/gpt-4o-mini</strong> — $17.57 — Off-Policy</div></div>
+<div class="card alert-card"><h3>⚠️ OpenRouter Off-Policy Spend</h3><div class="alert-item"><strong>anthropic/claude-opus-4.8</strong> — $476.98 — Escalation</div><div class="alert-item"><strong>anthropic/claude-haiku-4.5</strong> — $42.65 — Off-Policy</div><div class="alert-item"><strong>anthropic/claude-sonnet-4</strong> — $35.58 — Off-Policy</div><div class="alert-item"><strong>z-ai/glm-5.2</strong> — $24.13 — Off-Policy</div><div class="alert-item"><strong>openai/gpt-4o-mini</strong> — $22.89 — Off-Policy</div><div class="alert-item"><strong>anthropic/claude-sonnet-4.6</strong> — $19.98 — Off-Policy</div></div>
 <div class="grid4">
-    <div class="card"><h3>OR Balance</h3><div class="big">$318</div><div class="detail">Credits: 7,160 · ~2d</div></div>
-    <div class="card"><h3>7d Spend</h3><div class="big">$1,142</div><div class="detail">163/day avg</div></div>
-    <div class="card"><h3>Burn Rate</h3><div class="big">$163<span style="font-size:16px;color:var(--muted)">/day</span></div><div class="detail">~4,896/mo projected</div></div>
+    <div class="card"><h3>OR Balance</h3><div class="big">$254</div><div class="detail">Credits: 7,160 · ~2d</div></div>
+    <div class="card"><h3>7d Spend</h3><div class="big">$1,023</div><div class="detail">146/day avg</div></div>
+    <div class="card"><h3>Burn Rate</h3><div class="big">$146<span style="font-size:16px;color:var(--muted)">/day</span></div><div class="detail">~4,385/mo projected</div></div>
     <div class="card"><h3>Models Used</h3><div class="big">17</div><div class="detail">15 off-policy</div></div>
 </div>
 
@@ -96,16 +96,16 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
 
 <div class="grid3"><div class="key-card">
             <h4>Personal Hermes</h4>
-            <div class="kv"><span>Today</span><span>$4.90</span></div>
-            <div class="kv"><span>7-Day</span><span>$847.66</span></div>
-            <div class="kv"><span>30-Day</span><span>$702.49</span></div>
-            <div class="kv"><span>Lifetime</span><span>$3,920.40</span></div>
+            <div class="kv"><span>Today</span><span>$28.85</span></div>
+            <div class="kv"><span>7-Day</span><span>$910.46</span></div>
+            <div class="kv"><span>30-Day</span><span>$765.30</span></div>
+            <div class="kv"><span>Lifetime</span><span>$3,983.21</span></div>
             </div><div class="key-card">
             <h4>Bookmarked Fleet</h4>
-            <div class="kv"><span>Today</span><span>$0.07</span></div>
-            <div class="kv"><span>7-Day</span><span>$80.03</span></div>
-            <div class="kv"><span>30-Day</span><span>$32.40</span></div>
-            <div class="kv"><span>Lifetime</span><span>$2,875.31</span></div>
+            <div class="kv"><span>Today</span><span>$0.02</span></div>
+            <div class="kv"><span>7-Day</span><span>$81.49</span></div>
+            <div class="kv"><span>30-Day</span><span>$33.86</span></div>
+            <div class="kv"><span>Lifetime</span><span>$2,876.77</span></div>
             </div></div>
 
 <div class="card full-width">
@@ -115,42 +115,42 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
                 <td><span class="badge escalation">Escalation</span></td>
                 <td class="mono">anthropic/claude-opus-4.8</td>
                 <td class="num">$476.98</td>
-                <td class="num">41.8%</td></tr><tr class="model-row approved">
+                <td class="num">46.6%</td></tr><tr class="model-row approved">
                 <td><span class="badge approved">Fleet</span></td>
                 <td class="mono">deepseek/deepseek-v4-pro</td>
-                <td class="num">$426.05</td>
-                <td class="num">37.3%</td></tr><tr class="model-row approved">
+                <td class="num">$344.27</td>
+                <td class="num">33.6%</td></tr><tr class="model-row approved">
                 <td><span class="badge approved">Fleet</span></td>
                 <td class="mono">deepseek/deepseek-v4-flash</td>
-                <td class="num">$57.37</td>
-                <td class="num">5.0%</td></tr><tr class="model-row drift">
-                <td><span class="badge drift">Off-Policy</span></td>
-                <td class="mono">anthropic/claude-sonnet-4</td>
-                <td class="num">$54.61</td>
-                <td class="num">4.8%</td></tr><tr class="model-row drift">
+                <td class="num">$51.68</td>
+                <td class="num">5.1%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
                 <td class="mono">anthropic/claude-haiku-4.5</td>
-                <td class="num">$45.91</td>
-                <td class="num">4.0%</td></tr><tr class="model-row drift">
+                <td class="num">$42.65</td>
+                <td class="num">4.2%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
-                <td class="mono">anthropic/claude-sonnet-4.6</td>
-                <td class="num">$34.77</td>
-                <td class="num">3.0%</td></tr><tr class="model-row drift">
+                <td class="mono">anthropic/claude-sonnet-4</td>
+                <td class="num">$35.58</td>
+                <td class="num">3.5%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
                 <td class="mono">z-ai/glm-5.2</td>
-                <td class="num">$24.07</td>
-                <td class="num">2.1%</td></tr><tr class="model-row drift">
+                <td class="num">$24.13</td>
+                <td class="num">2.4%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
                 <td class="mono">openai/gpt-4o-mini</td>
-                <td class="num">$17.57</td>
-                <td class="num">1.5%</td></tr><tr class="model-row drift">
+                <td class="num">$22.89</td>
+                <td class="num">2.2%</td></tr><tr class="model-row drift">
+                <td><span class="badge drift">Off-Policy</span></td>
+                <td class="mono">anthropic/claude-sonnet-4.6</td>
+                <td class="num">$19.98</td>
+                <td class="num">2.0%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
                 <td class="mono">google/gemini-2.5-flash</td>
-                <td class="num">$3.70</td>
-                <td class="num">0.3%</td></tr><tr class="model-row drift">
+                <td class="num">$3.73</td>
+                <td class="num">0.4%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
                 <td class="mono">google/gemini-2.5-flash-lite</td>
-                <td class="num">$0.47</td>
+                <td class="num">$0.43</td>
                 <td class="num">0.0%</td></tr><tr class="model-row drift">
                 <td><span class="badge drift">Off-Policy</span></td>
                 <td class="mono">minimax/minimax-m2.7</td>
@@ -165,23 +165,23 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
 
 <!-- ── ANTHROPIC TAB ── -->
 <div id="tab-anthropic" class="tab-content">
-<div class="card alert-card"><h3>⚠️ Anthropic Model Drift</h3><p class="note">Models outside expected G-Brain usage. Opus 4.8 is escalation-only; older models may be stale jobs.</p><div class="alert-item"><strong>claude-opus-4-8</strong> — $87.25</div><div class="alert-item"><strong>claude-sonnet-4-5-20250929</strong> — $0.18</div></div>
+
 
 <div class="grid4">
-    <div class="card"><h3>7d Spend</h3><div class="big" style="color:#f97316">$387</div><div class="detail">55/day avg</div></div>
-    <div class="card"><h3>Cache Hit Rate</h3><div class="big" style="color:#22c55e">75.6%</div><div class="detail">417,397,630 reads / 551,897,900 total input</div></div>
-    <div class="card"><h3>Output Tokens</h3><div class="big">6,753,303</div><div class="detail">1.4% output ratio</div></div>
-    <div class="card"><h3>Models Used</h3><div class="big">4</div><div class="detail">2 off-policy</div></div>
+    <div class="card"><h3>7d Spend</h3><div class="big" style="color:#f97316">$0</div><div class="detail">0/day avg</div></div>
+    <div class="card"><h3>Cache Hit Rate</h3><div class="big" style="color:#22c55e">0.0%</div><div class="detail">0 reads / 0 total input</div></div>
+    <div class="card"><h3>Output Tokens</h3><div class="big">0</div><div class="detail">0.0% output ratio</div></div>
+    <div class="card"><h3>Models Used</h3><div class="big">0</div><div class="detail">0 off-policy</div></div>
 </div>
 
 <div class="card full-width">
             <h3>📊 Token Volume (7d)</h3>
             <div style="display:flex;gap:24px;flex-wrap:wrap">
-                <div><span style="color:var(--muted);font-size:12px">Cache Read</span><br><span style="font-size:22px;font-weight:700">417,397,630</span></div>
-                <div><span style="color:var(--muted);font-size:12px">Cache Write</span><br><span style="font-size:22px;font-weight:700">63,356,366</span></div>
-                <div><span style="color:var(--muted);font-size:12px">Uncached Input</span><br><span style="font-size:22px;font-weight:700">71,143,904</span></div>
-                <div><span style="color:var(--muted);font-size:12px">Output</span><br><span style="font-size:22px;font-weight:700">6,753,303</span></div>
-                <div><span style="color:var(--muted);font-size:12px">Cache Hit Rate</span><br><span style="font-size:22px;font-weight:700;color:var(--green)">75.6%</span></div>
+                <div><span style="color:var(--muted);font-size:12px">Cache Read</span><br><span style="font-size:22px;font-weight:700">0</span></div>
+                <div><span style="color:var(--muted);font-size:12px">Cache Write</span><br><span style="font-size:22px;font-weight:700">0</span></div>
+                <div><span style="color:var(--muted);font-size:12px">Uncached Input</span><br><span style="font-size:22px;font-weight:700">0</span></div>
+                <div><span style="color:var(--muted);font-size:12px">Output</span><br><span style="font-size:22px;font-weight:700">0</span></div>
+                <div><span style="color:var(--muted);font-size:12px">Cache Hit Rate</span><br><span style="font-size:22px;font-weight:700;color:var(--green)">0.0%</span></div>
             </div></div>
 
 <div class="grid2">
@@ -192,23 +192,7 @@ td{padding:8px 10px;border-bottom:1px solid rgba(51,65,85,.4)}
 <div class="card full-width">
     <h3>Anthropic Model Breakdown</h3>
     <table><thead><tr><th>Policy</th><th>Model</th><th style="text-align:right">Spend</th><th style="text-align:right">%</th></tr></thead>
-    <tbody><tr class="model-row approved">
-                <td><span class="badge approved">Expected</span></td>
-                <td class="mono">claude-haiku-4-5-20251001</td>
-                <td class="num">$162.73</td>
-                <td class="num">42.0%</td></tr><tr class="model-row approved">
-                <td><span class="badge approved">Expected</span></td>
-                <td class="mono">claude-sonnet-4-6</td>
-                <td class="num">$136.82</td>
-                <td class="num">35.4%</td></tr><tr class="model-row escalation">
-                <td><span class="badge escalation">Old/Drift</span></td>
-                <td class="mono">claude-opus-4-8</td>
-                <td class="num">$87.25</td>
-                <td class="num">22.5%</td></tr><tr class="model-row escalation">
-                <td><span class="badge escalation">Old/Drift</span></td>
-                <td class="mono">claude-sonnet-4-5-20250929</td>
-                <td class="num">$0.18</td>
-                <td class="num">0.0%</td></tr></tbody></table>
+    <tbody></tbody></table>
 </div>
 </div>
 
@@ -227,9 +211,9 @@ const C = ['#3b82f6','#f97316','#22c55e','#ef4444','#a855f7','#ec4899','#06b6d4'
 // Combined stacked bar
 new Chart(document.getElementById('combinedChart'),{
     type:'bar',
-    data:{labels:["2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"],datasets:[
-        {label:'OpenRouter',data:[159.55, 59.87, 141.71, 51.21, 194.28, 447.1, 88.59],backgroundColor:'rgba(59,130,246,.7)',borderRadius:3},
-        {label:'Anthropic',data:[36.06, 8.28, 19.66, 162.81, 22.75, 98.18, 39.25],backgroundColor:'rgba(249,115,22,.7)',borderRadius:3}
+    data:{labels:["2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04"],datasets:[
+        {label:'OpenRouter',data:[59.87, 141.71, 51.21, 194.28, 447.1, 88.59, 40.37],backgroundColor:'rgba(59,130,246,.7)',borderRadius:3},
+        {label:'Anthropic',data:[0, 0, 0, 0, 0, 0, 0],backgroundColor:'rgba(249,115,22,.7)',borderRadius:3}
     ]},
     options:{responsive:true,plugins:{legend:{labels:{color:'#94a3b8',font:{size:10}}}},scales:{x:{stacked:true,ticks:{color:'#94a3b8',maxRotation:45,font:{size:9}},grid:{display:false}},y:{stacked:true,ticks:{color:'#94a3b8',callback:v=>'$'+v},grid:{color:'rgba(51,65,85,.25)'}}}}
 });
@@ -237,28 +221,28 @@ new Chart(document.getElementById('combinedChart'),{
 // OR daily chart
 new Chart(document.getElementById('orDailyChart'),{
     type:'bar',
-    data:{labels:["2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"],datasets:[{data:[159.55, 59.87, 141.71, 51.21, 194.28, 447.1, 88.59],backgroundColor:'rgba(59,130,246,.55)',borderRadius:3}]},
+    data:{labels:["2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04"],datasets:[{data:[59.87, 141.71, 51.21, 194.28, 447.1, 88.59, 40.37],backgroundColor:'rgba(59,130,246,.55)',borderRadius:3}]},
     options:{responsive:true,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#94a3b8',maxRotation:45,font:{size:9}},grid:{display:false}},y:{ticks:{color:'#94a3b8',callback:v=>'$'+v},grid:{color:'rgba(51,65,85,.25)'}}}}
 });
 
 // OR donut
 new Chart(document.getElementById('orDonutChart'),{
     type:'doughnut',
-    data:{labels:["claude-opus-4.8", "deepseek-v4-pro", "deepseek-v4-flash", "claude-sonnet-4", "claude-haiku-4.5", "claude-sonnet-4.6", "glm-5.2"],datasets:[{data:[476.98, 426.05, 57.37, 54.61, 45.91, 34.77, 24.07],backgroundColor:C,borderWidth:0}]},
+    data:{labels:["claude-opus-4.8", "deepseek-v4-pro", "deepseek-v4-flash", "claude-haiku-4.5", "claude-sonnet-4", "glm-5.2", "gpt-4o-mini"],datasets:[{data:[476.98, 344.27, 51.68, 42.65, 35.58, 24.13, 22.89],backgroundColor:C,borderWidth:0}]},
     options:{responsive:true,cutout:'62%',plugins:{legend:{position:'bottom',labels:{color:'#94a3b8',padding:8,font:{size:10},usePointStyle:true}}}}
 });
 
 // AN daily chart
 new Chart(document.getElementById('antDailyChart'),{
     type:'bar',
-    data:{labels:["2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03"],datasets:[{data:[36.06, 8.28, 19.66, 162.81, 22.75, 98.18, 39.25],backgroundColor:'rgba(249,115,22,.55)',borderRadius:3}]},
+    data:{labels:[],datasets:[{data:[],backgroundColor:'rgba(249,115,22,.55)',borderRadius:3}]},
     options:{responsive:true,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#94a3b8',maxRotation:45,font:{size:9}},grid:{display:false}},y:{ticks:{color:'#94a3b8',callback:v=>'$'+v},grid:{color:'rgba(51,65,85,.25)'}}}}
 });
 
 // AN donut
 new Chart(document.getElementById('antDonutChart'),{
     type:'doughnut',
-    data:{labels:["claude-haiku-4-5-20251001", "claude-sonnet-4-6", "claude-opus-4-8", "claude-sonnet-4-5-20250929"],datasets:[{data:[162.73, 136.82, 87.25, 0.18],backgroundColor:C,borderWidth:0}]},
+    data:{labels:[],datasets:[{data:[],backgroundColor:C,borderWidth:0}]},
     options:{responsive:true,cutout:'62%',plugins:{legend:{position:'bottom',labels:{color:'#94a3b8',padding:8,font:{size:10},usePointStyle:true}}}}
 });
 </script>
